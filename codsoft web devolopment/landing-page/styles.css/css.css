@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Navigation */
+header {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info span {
+    margin-right: 15px;
+}
+
+.btn-consult {
+    background-color: #ff5e62;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background-image: url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-primary {
+    background-color: #ff7e5f;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    background-color: #feb47b;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
